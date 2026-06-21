@@ -1,4 +1,4 @@
-import pytest
+"""import pytest
 from playwright.sync_api import sync_playwright
 @pytest.fixture
 def page():
@@ -6,4 +6,4 @@ def page():
         browser = p.chromium.launch(headless=False)
         page = browser.new_page()
         yield page
-        browser.close()
+        browser.close()"""
